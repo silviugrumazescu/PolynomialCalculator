@@ -1,6 +1,8 @@
 import java.util.ArrayList;
 
 public class Polynomial {
+    private ArrayList<Monomial> monomialsList;
+
     public ArrayList<Monomial> getMonomialsList() {
         return monomialsList;
     }
@@ -9,6 +11,6 @@ public class Polynomial {
         this.monomialsList = monomialsList;
     }
 
-    private ArrayList<Monomial> monomialsList;
+
 
 }
